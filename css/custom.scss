@@ -1,0 +1,535 @@
+html{
+    overflow-x:hidden!important;
+    margin-top: 0px !important;
+}
+
+.imagem-sobre-clinica{
+    width: auto;
+    height: 302px;
+    background-position: center center;
+    background-size: cover;
+    display: block;
+}
+.custom-img-equipe{
+    width: 360px;
+    height: 200px;
+    background-position: center center;
+    background-size: cover;
+    display: block;
+}
+.item-photo{
+    width: auto;
+    height: 245px;
+    background-position: center center;
+    background-size: cover;
+    display: block;
+}
+.item-photo2 {
+    width: 480px;
+    height: 400px;
+    background-size: cover;
+    border-radius: 5px;
+}
+.item-photo3 {
+    width: auto;
+    height: 515px;
+    background-size: cover;
+    border-radius: 5px;
+}
+.custom-img-clinica {
+    height: 200px;
+    width: auto;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.custom-padding-banner-clinica {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.hr-short{
+
+    width: 30%;
+    border: none;
+    border-bottom: 1px solid #314a78;
+}
+.custom-banner-azul{
+
+    background-color:#265369;
+}
+.custom-banner-azul2{
+
+    background-color:#265369;
+}
+.custom-imagem img{
+    height: auto;
+    width: 230px;
+    max-width: 260px;
+}
+.custom-efeito-textos-banner1 h1{
+    
+    font-size: 40px;
+    line-height: 40px;
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+    /* text-transform: uppercase; */
+    font-weight: 400;
+}
+.panel {
+  
+    position: absolute;
+    padding-top: 21%;
+}
+.particles-js-canvas-el{
+    width: 100%!important;
+    height:100%!important;
+}
+
+.custom-banner-antes-header{
+
+    background-color:#265369;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+#particles-js {
+   
+    background-color: #fff !important;
+}
+@media only screen and (max-width: 1255px) {
+    .custom-menu nav a {
+        border-radius: 30px;
+        text-decoration: none;
+        font-weight: 700;
+        color: #535b6c;
+        text-transform: uppercase;
+        padding: 11px;
+        font-size: 13px !important;
+        font-family: 'Raleway';
+    }
+    .custom-imagem img {
+        height: auto;
+        width: 185px;
+        max-width: 200px;
+    }
+}
+@media only screen and (max-width: 1024px) {
+
+    .custom-menu nav a {
+        border-radius: 30px;
+        text-decoration: none;
+        font-weight: 700;
+        color: #535b6c;
+        text-transform: uppercase;
+        padding: 11px;
+        font-size: 12px !important;
+        font-family: 'Raleway';
+    }
+    .custom-menu .nav ul {
+        margin-left: 20px;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+        -webkit-justify-content: space-between;
+        justify-content: space-between;
+        list-style: none;
+        /* align-items: center; */
+        padding-top: 0px!important; 
+    }
+}
+@media only screen and (max-width: 1030px) {
+    .custom-contatos{
+        h1{
+
+            font-size: 13px !important;
+            line-height: 19px !important; 
+        }
+    }
+}
+
+@media only screen and (min-width: 569px) and (max-width: 748px) {
+
+
+
+    .custom-letra-especialidades h1 {
+        font-size: 27px!important;
+        line-height: 27px!important;     
+    }
+    .item-photo2 {
+        width: auto;
+        height: 380px;
+    }
+    .custom-letra-especialidades{
+        h1{
+            font-size: 32px;
+            line-height: 32px;
+        }
+    }
+    #slider {
+        height: 500px!important;
+    }
+    .content-txt{
+
+        top: 300px!important;
+    }
+    .canvas {   
+      height: 450px!important;
+    }
+    .custom-equipe{
+        height: 300px!important;
+    }
+    .custom-contatos{
+        h1{
+            font-size: 15px !important;
+            line-height: 17px !important;
+        }
+    }
+}
+@media only screen and (max-width: 732px) and (min-width: 412px){
+    .item-photo2 {
+        height: 311px;
+        width: auto;
+    }
+}
+@media only screen and (max-width: 568px) and (min-width: 320px){
+    .item-photo2 {
+        height: 250px;
+        width: auto;
+    }
+    .custom-contatos h1 {
+        font-size: 12px !important;
+        line-height: 12px !important;
+    }
+}
+@media only screen and (max-width: 667px) and (min-width: 375px){
+    .item-photo2 {
+        height: 297px;
+        width: auto;
+    }
+}
+@media only screen and (max-width: 736px) and (min-width: 414px){
+    .item-photo2 {
+        height: 315px;
+        width: auto;
+    }
+}
+.custom-saiba-mais a {
+    font-size: 22px;
+    line-height: 22px;
+    color: #1aa5b6;
+    text-decoration: none;
+    font-weight: 700;
+    font-family: 'Raleway';
+}
+.custom-letra-efeito {
+    h1{
+
+        font-size: 40px;
+        line-height: 40px;
+        color: #265369;
+        text-transform: uppercase;
+        font-weight: 400;
+        font-family: 'Raleway';
+    }
+}
+ p{
+
+    color: #575757;
+    font-size: 22px;
+    line-height: 22px;
+    font-weight: 300;
+    font-family: 'Raleway';
+}
+.custom-letra-especialidades{
+    h1{
+        font-size: 40px;
+        line-height: 40px;
+        color: #265369;
+        text-transform: uppercase;
+        font-weight: 400;
+        font-family: 'Raleway';
+    }
+    p{
+        color: #575757;
+        font-size: 22px;
+        line-height: 22px;
+        font-weight: 400!important;
+        font-family: 'Raleway';
+    }
+}
+.custom-equipe2{
+
+    h1{
+        font-size: 22px;
+        line-height: 22px;
+        color: #fff;
+        text-transform: uppercase;
+        font-weight: 600;
+        font-family: 'Raleway';
+    }
+}
+.custom-equipe-medica{
+
+     h1{
+        font-size: 40px;
+        line-height: 40px;
+        color: #1aa5b6;
+        text-transform: uppercase;
+        font-weight: 400;
+        font-family: 'Raleway';
+    }
+    p{
+
+        color: #575757;
+        font-size: 22px;
+        line-height: 22px;
+        font-weight: 400!important;
+        font-family: 'Raleway';
+    }
+}
+
+.custom-equipe-profissionais{
+
+    h3{
+        font-size: 18px;
+        line-height: 18px;
+        color: #000;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-family: 'Raleway';
+    }
+
+    h4{
+        font-size: 18px;
+        line-height: 18px;
+        color: #575757;
+        text-transform: uppercase;
+        font-weight: 400;
+        font-family: 'Raleway';
+
+    }
+    h1{
+        font-size: 40px;
+        line-height: 40px;
+        color: #000;
+        text-transform: uppercase;
+        font-weight: 400;
+        font-family: 'Raleway';
+    }
+
+    p{
+
+        color: #000;
+        font-size: 18px;
+        line-height: 18px;
+        font-weight: 400;
+        font-family: 'Raleway';
+    }
+}
+
+.hr-short-especialidade{
+
+    width: 30%;
+    border: none;
+    border-bottom: 1px solid #265369;
+}
+
+.custom-letra-convenios {
+
+    h1 {
+        font-size: 40px;
+        line-height: 40px;
+        color: #265369;
+        text-transform: uppercase;
+        font-weight: 400;
+        font-family: 'Raleway';
+    }
+}
+
+.custom-imagem-footer {
+    height: auto;
+    width: 60px;
+}
+
+.custom-footer{
+
+    background-color:#265369;
+
+    p{
+        color: #fff;
+        font-size: 22px;
+        line-height: 22px;
+        font-weight: 400!important;
+        font-family: 'Raleway';
+    }
+    span{
+
+        color: #fff;
+        font-size: 22px;
+        line-height: 22px;
+        font-weight: 600!important;
+        font-family: 'Raleway';
+    }
+   
+}
+
+.custom-foorte2{
+
+    h1{
+        color: #fff;
+        font-size: 25px;
+        line-height: 25px;
+        font-weight: 700 !important;
+        font-family: 'Raleway';
+    }
+    p{
+        color: #fff;
+        font-size: 22px;
+        line-height: 30px;
+        font-weight: 300 !important;
+        font-family: 'Raleway';
+    }
+    a{
+        color: #fff!important;
+        font-size: 22px;
+        line-height: 30px;
+        font-weight: 300 !important;
+        font-family: 'Raleway';
+    }
+    img{
+
+        height: 50px;
+        width: auto;
+    }
+}
+
+.custom-imagem-footer img{
+    max-width: 100px;
+    height: auto;
+    width: 100px;
+}
+
+.custom-phonte-contato{
+
+     border: 3px solid #265369;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background-color: #265369;
+    color: #fff;
+    padding: 10px 15px 10px 15px;
+    white-space: nowrap;
+    text-decoration: none;
+    padding-top: 5px!important;
+    padding-bottom: 5px!important;
+}
+
+
+.custom-contatos img{
+
+    height: auto;
+    width: 40px;
+}
+
+.custom-contatos{
+
+    h1{
+
+    color: #fff;
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 700 !important;
+    font-family: 'Raleway';
+    text-transform: capitalize;
+    }
+}
+.custom-equipe{
+
+    height: 350px;
+    width: auto;
+    background-position: center center;
+    background-size: cover;
+    display: block;
+    border-radius: 25px;
+}
+.custom-imagem-blog{
+
+    height: 550px;
+    width:auto;
+    background-repeat: no-repeat;
+}
+.custom-tamanho-conteudo {
+    padding-right: 40px !important;
+    padding-left: 40px !important;
+}
+.custom-banner-branco{
+    background-color: #ffffff;
+    z-index: 2;
+}
+
+.custom-banner-cinza {
+    background-color: #dfe4ea;
+}
+
+.custom-categoria-contato{
+    h2{
+        font-size: 40px!important;
+        line-height: 40px;
+        color: #29abe2;
+        text-transform: uppercase;
+        font-weight: 400;
+        font-family: 'Raleway';
+    }
+}
+.custom-sobre-clinica img{
+    border-radius: 50px;
+    width: auto;
+    height: 350px;
+}
+.custom-sobre-clinica{
+
+    h1{
+
+    font-size: 22px;
+    line-height: 22px;
+    color: #1aa5b6;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: 'Raleway';
+    }
+    p{
+
+    color: #575757;
+    font-size: 22px;
+    line-height: 22px;
+    font-weight: 400!important;
+    font-family: 'Raleway';
+    text-transform: capitalize;
+    }
+}
+.custom-cor{
+
+    h1{
+
+    font-size: 22px;
+    line-height: 22px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: 'Raleway';
+    }
+}
+
+.custom-conteudos{
+
+    a{
+
+         text-decoration: none;
+    font-size: 40px;
+    line-height: 40px;
+    color: #1aa5b6;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-family: 'Raleway';
+    }
+}

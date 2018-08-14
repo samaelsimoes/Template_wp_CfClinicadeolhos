@@ -1,0 +1,59 @@
+.wpcf7-not-valid-tip {
+  border:1px solid #C1272D;
+  background-color: #F7B1AA;
+  padding:10px;
+  display: block;
+  position:relative;
+  top:-10px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  font-size: 22px;
+}
+
+.wpcf7-validation-errors {
+  display: none;
+}
+
+.wpcf7-list-item {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.wpcf7-mail-sent-ng {
+  margin-top: 20px;
+  border:1px solid red;
+  background-color: #F7B1AA;
+  padding:20px;
+  display: block;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+
+.wpcf7-mail-sent-ok {
+  margin-top: 20px !important;
+  border: 1px solid #39B54A!important;
+  background-color: #78EAB4!important;
+  padding: 20px!important;
+  display: block!important;
+  -webkit-border-radius: 10px!important;
+  -moz-border-radius: 10px!important;
+  border-radius: 10px!important;
+}
+
+.wpcf7-not-valid {
+  border:1px solid #C1272D !important;
+}
+
+.wpcf7-validation-errors {
+  display:none !important;
+}
+
+body {
+  font-family: "Raleway";
+  font-size: 22px!important;
+  line-height: 22px!important;
+  color: #7A8D93;
+  font-weight: normal;
+}

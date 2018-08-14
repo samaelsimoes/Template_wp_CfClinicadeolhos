@@ -1,0 +1,136 @@
+
+.current_page_item a {
+  color: #535b6c!important;
+}
+.custom-header nav a:hover, .active {
+  border-radius: 20px;
+  white-space: nowrap;
+  text-decoration: none;
+  background-color: #7dc2e5 !important;
+}
+
+.custom-menu{
+  nav li{
+    float: none!important;
+    margin-right: 0px!important;
+  }
+  nav a {
+    
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: 700;
+    color: #535b6c;
+    text-transform: uppercase;
+    padding: 15px;
+    font-size: 14px !important;
+    font-family: 'Raleway';
+  }
+  nav a:hover, .active {
+    border-radius: 30px;
+    background-color: #29abe2;
+    padding: 15px;
+    color: #fff !important;
+    font-weight: 700;
+  }
+  .nav ul {
+    margin-left: 20px;
+    display: -webkit-flex; /* Safari */
+    display: flex;
+    -webkit-flex-wrap: nowrap; /* Safari */
+    flex-wrap: nowrap;
+    -webkit-justify-content: space-between; /* Safari */
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+    padding-top: 18px;
+  }
+}
+
+.menu-item-151 a, .menu-item-80 a {
+    background-color: #265369 !important;
+    color: #fff !important;
+}
+
+.menu-item-151 a:hover, .menu-item-80 a:hover{
+
+  color: #535b6c;
+}
+
+@media only screen and (max-width: 748px) { 
+  .custom-menu{
+    .nav ul{
+      padding-top: 50px;
+    }
+  }
+  .menu-item-151 a, .menu-item-80 a{ 
+
+    background-color: #fff !important;
+    color: #535b6c!important;
+  }
+
+  .custom-menu nav a{
+
+    line-height: 50px!important;
+  }
+  .menu li{
+    padding-bottom: 5px;
+    border-top: 0.5px solid #ccd3da;
+    padding-top: 5px;
+  }
+  .nav ul{
+    display: block !important;
+  }
+  .menu-main-menu-container{
+    padding-top: 2px;
+  }
+  .custom-menu {
+    height: 580px!important;
+  }
+  .custom-header nav a:hover, .active {
+    display: block;
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+    background-color: #255e86 !important;
+  }
+  .custom-menu nav a {
+    display: block!important;
+  }
+  .closed.custom-imagem-menu {
+    height: 33px;
+    width: 35px;
+    background-image: url(assets/takao_menu-01.svg)!important;
+    background-repeat: no-repeat;
+    display: block;
+    position: relative;
+  }
+  .custom-imagem-menu {
+    height: 33px;
+    width: 35px;
+    background-image: url(assets/takao_menu-02.svg);
+    background-repeat: no-repeat;
+    display: block;
+    position: relative;
+  }
+}
+
+.nav-menu-responsivo-cor{
+  background-color: #265369;
+  padding-left: 7px;
+  margin-top: 6px;
+  padding-top: 6px;
+  padding-right: 6px;
+  padding-bottom: 6px
+}
+
+.custom-menu {
+  height: 0px ;
+}
+#nav {
+  transition-timing-function: ease;
+  -webkit-transition: height 0.5s;
+  transition: height 0.5s;
+}
+.menu-closed, .menu-closed nav {
+  height:0px!important;
+}
+

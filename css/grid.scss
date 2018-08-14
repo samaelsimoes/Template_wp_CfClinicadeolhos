@@ -1,0 +1,81 @@
+/*sections*/
+.section {
+	position:relative;
+	display:block;
+	width:100%;
+}
+
+/*rows*/
+.row {
+	position:relative;
+	display: -ms-flex; /* IE 10 */
+	display: -webkit-flex; /* Safari */
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+	max-width:$grid-maxwidth;
+	width:100%;
+	margin:0 auto;
+	padding-right: $row-horizontal-padding;
+	padding-left: $row-horizontal-padding;
+	margin-bottom: $row-marigin-bottom;
+
+	.row {
+		margin-bottom: 0px;
+		padding:0px;
+	}
+
+	&:last-of-type {
+		margin-bottom: 0px;
+	}
+}
+
+/*columns*/
+.col {
+	position:relative;
+	width:100%;
+	margin-right:$grid-gutter !important;
+}
+
+/*columns span*/
+@mixin col($span, $pull) {
+	$col-width : ((100% - (($pull - 1) * $grid-gutter))/$pull* $span) + (($span - 1) * $grid-gutter);
+
+	width: $col-width;
+	margin-right:$grid-gutter !important;
+}
+
+@for $i from 1 through $grid-cols {
+	@for $j from 1 through $grid-cols {
+		 @if $i < $j {
+
+			.span-#{$i}-#{$j} { 
+		  		@include col($i, $j); 
+			}
+		 }
+	}
+}
+
+.col:last-of-type {
+	margin-right:0px !important;
+}
+
+/*phone*/
+@media only screen and (max-width : $phone-maxwidth) {
+
+	.row {
+		padding-right: 20px;
+		padding-left: 20px;
+	}
+
+	.row:not(.phone-row) {
+		-ms-flex-direction: column; /* IE 10 */
+		-webkit-flex-direction: column; /* Safari */
+        flex-direction: column;
+	}
+
+
+  	.col:not(.phone-col) {
+		width: 100%;
+	}
+}

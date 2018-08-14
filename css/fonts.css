@@ -1,0 +1,65 @@
+@font-face {
+  font-family: 'toyota_displaybold';
+  src: url('../fonts/toyotadisplay_bd.eot');
+  src: url('../fonts/toyotadisplay_bd.eot?#iefix') format('embedded-opentype'),
+     url('../fonts/toyotadisplay_bd.svg#toyota_displaybold') format('svg'),
+     url('../fonts/toyotadisplay_bd.woff') format('woff'),
+     url('../fonts/toyotadisplay_bd.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'toyota_displayregular';
+  src: url('../fonts/toyotadisplay_rg.eot');
+  src: url('../fonts/toyotadisplay_rg.eot?#iefix') format('embedded-opentype'),
+     url('../fonts/toyotadisplay_rg.svg#toyota_displayregular') format('svg'),
+     url('../fonts/toyotadisplay_rg.woff') format('woff'),
+     url('../fonts/toyotadisplay_rg.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face{
+  font-family:'toyotatextbolditalic-webfont';
+  src: url('../fonts/toyotatextbolditalic-webfont.eot');
+  src: url('../fonts/toyotatextbolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+     url('../fonts/toyotatextbolditalic-webfont.svg#toyota_textbold_italic') format('svg'),
+     url('../fonts/toyotatextbolditalic-webfont.woff') format('woff'),
+     url('../fonts/toyotatextbolditalic-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'toyota_textbold';
+  src: url('../fonts/toyotatextbold-webfont.eot');
+  src: url('../fonts/toyotatextbold-webfont.eot?#iefix') format('embedded-opentype'),
+     url('../fonts/toyotatextbold-webfont.svg#toyota_textbold') format('svg'),
+     url('../fonts/toyotatextbold-webfont.woff') format('woff'),
+     url('../fonts/toyotatextbold-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'toyota_textregular';
+  src: url('../fonts/toyotatextregular-webfont.eot');
+  src: url('../fonts/toyotatextregular-webfont.eot?#iefix') format('embedded-opentype'),
+     url('../fonts/toyotatextregular-webfont.svg#toyota_textregular') format('svg'),
+     url('../fonts/toyotatextregular-webfont.woff') format('woff'),
+     url('../fonts/toyotatextregular-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'toyota_textitalic';
+  src: url('../fonts/toyotatextitalic-webfont.eot');
+  src: url('../fonts/toyotatextitalic-webfont.eot?#iefix') format('embedded-opentype'),
+     url('../fonts/toyotatextitalic-webfont.svg#toyota_textitalic') format('svg'),
+     url('../fonts/toyotatextitalic-webfont.woff') format('woff'),
+     url('../fonts/toyotatextitalic-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
