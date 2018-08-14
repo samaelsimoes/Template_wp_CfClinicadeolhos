@@ -29,14 +29,14 @@
 					<img src="<?php echo get_template_directory_uri(); ?>/assets/whatsap.png">
 				</div>
 				<div class="col span-4-5">
-					<h1>(47) 98823 - 5552</h1>
+					<h1>(47) 98823-5552</h1>
 				</div>
 			</div>
 		</div>
 		<div class="col span-1-2 align-center space-vertical" style="padding-top:10px; padding-bottom:10px;">
 			<div class="row custom-phonte-contato align-middle">
 				<div class="col span-1-5">
-								<img src="<?php echo get_template_directory_uri(); ?>/assets/contato-telefone.svg">
+					<img src="<?php echo get_template_directory_uri(); ?>/assets/contato-telefone.svg">
 				</div>
 				<div class="col span-4-5">
 					<h1>Banco de olhos: (47) 3433-4854</h1>

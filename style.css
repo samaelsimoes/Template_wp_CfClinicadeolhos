@@ -3,7 +3,7 @@
 	Theme Name: CF Clinica de olhos 
 	Author: Samael.Simoes 
 	Author URI:
-	Version: 3.4
+	Version: 3.5
 	Data: 05-08-2018;
 */
 /* 
@@ -663,9 +663,13 @@ button {
 
 /*phone*/
 @media only screen and (max-width: 748px) {
+  .custom-img-3 img {
+    height: 70px!important;
+    width: 55%!important;
+}
 
   .custom-img-exames {
-    height: 1250px!important;
+    height: 1480px!important;
   }
   .custom-color-img-exames{
     height: 100%;

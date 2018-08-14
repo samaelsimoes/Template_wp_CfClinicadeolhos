@@ -185,7 +185,7 @@
 		<div class="row custom-text">
 			<div class="col ">
 				<div class="row ">
-					<div class="col align-center">
+					<div class="col align-center padding-vertical-small">
 						<h1> Exames </h1> <br>
 					</div>
 				</div>	
@@ -199,7 +199,7 @@
 					<p> Adaptação de Prótese Ocular </p>
 					<p> Paquimetria</p>
 					<p> Bio microscopio de fundo de olho </p>
-					<p> Tonometria pós cargo </p>
+					<p> Tonometria pós carga </p>
 					<p> Retinografia </p>
 					<p> Ppilografia </p>
 					<p> Ultrassonografia Ocular </p>
@@ -211,22 +211,21 @@
 			</div>	
 			<div class="col">
 				<div class="row">
-					<div class="col align-center">
-						<h1> ConsultasPediátricas </h1> <br>
+					<div class="col align-center padding-vertical-small">
+						<h1> Consultas Pediátricas </h1> <br>
 					</div>
 				</div>	
 				<div class="row">
 					<div class="col">
 						<p> Cartões de Teller</p>
 						<p> Titmus Test</p>
-						<p> Motilidade Ocular</p>
-						
+						<p> Motilidade Ocular</p>						
 					</div>
 				</div>		
 			</div>	
 			<div class="col">
 				<div class="row">
-					<div class="col align-center">
+					<div class="col align-center padding-vertical-small">
 						<h1> Cirurgias </h1> <br>
 					</div>
 				</div>	
