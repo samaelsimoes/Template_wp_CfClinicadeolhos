@@ -3,7 +3,7 @@
 	Theme Name: CF Clinica de olhos 
 	Author: Samael.Simoes 
 	Author URI:
-	Version: 3.5
+	Version: 3.9
 	Data: 05-08-2018;
 */
 /* 
@@ -663,13 +663,17 @@ button {
 
 /*phone*/
 @media only screen and (max-width: 748px) {
+
+  .custom-footer p {
+    text-decoration: none;
+  }
   .custom-img-3 img {
-    height: 70px!important;
+    height: 50px!important;
     width: 55%!important;
-}
+  }
 
   .custom-img-exames {
-    height: 1480px!important;
+    height: 1550px!important;
   }
   .custom-color-img-exames{
     height: 100%;
@@ -758,6 +762,20 @@ button {
 /*medium*/
 /*small*/
 @media only screen and (max-width: 748px) {
+  .custom-letra-efeito h1 {
+    font-size: 32px!important;
+    line-height: 32px!important;
+  }  
+  .row {
+    padding-right: 30px!important;
+    padding-left: 4px!important;
+  }
+  .custom-letra-especialidades h1 {
+    font-size: 32px!important;
+    line-height: 32px!important;
+  }
+
+  
   /*align*/
   .align-center {
     text-align: center;
@@ -1101,7 +1119,10 @@ html {
 
   .custom-contatos h1 {
     font-size: 15px !important;
-    line-height: 17px !important; } }
+    line-height: 17px !important; 
+    color: #fff!important;
+    text-decoration: none!important
+  } }
 @media only screen and (max-width: 732px) and (min-width: 412px) {
   .item-photo2 {
     height: 311px;
@@ -1113,7 +1134,9 @@ html {
 
   .custom-contatos h1 {
     font-size: 15px !important;
-    line-height: 20px !important;} }
+    line-height: 20px !important;
+    color: #fff!important;
+    text-decoration: none!important} }
 @media only screen and (max-width: 667px) and (min-width: 375px) {
   .item-photo2 {
     height: 297px;
@@ -1461,5 +1484,5 @@ body {
   height: 775px;
 }
 .custom-color-img-exames {
-  background: #1b54786e;
+  background: #1b5478a3;
 }

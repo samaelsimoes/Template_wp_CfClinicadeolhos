@@ -4,6 +4,7 @@
 
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" >
 		<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+		<meta name="format-detection" content="telephone=no">
 
 		<title><?php wp_title('|', true, 'right');
 bloginfo('name')?></title>
@@ -14,7 +15,7 @@ bloginfo('name')?></title>
 
 		<!-- Stylesheets -->
 
-		<link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_uri(); ?>?ver=3.5"/>
+		<link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_uri(); ?>?ver=3.9"/>
 		<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/scripts/jquery.js"></script>
 
 		<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/scripts/efeitoscroll.js"></script>

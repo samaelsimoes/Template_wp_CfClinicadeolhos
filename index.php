@@ -190,18 +190,18 @@
 					</div>
 				</div>	
 				<div class="col">
-					<p> Biometrio Ultrassônico </p>
-					<p> Microscopia especular de córnea </p>
+					<p> Biometria Ultrassônica </p>
+					<p> Microscopia Especular de Córnea </p>
 					<p> Potencial de Acuidade macular </p>
 					<p> Mapeamento de Retina </p>
 					<p> Topografia de Córnea computadorizado </p>
 					<p> Adaptação de Lente de Contato </p>
 					<p> Adaptação de Prótese Ocular </p>
 					<p> Paquimetria</p>
-					<p> Bio microscopio de fundo de olho </p>
+					<p> Biomicroscopia de Fundo de Olho </p>
 					<p> Tonometria pós carga </p>
 					<p> Retinografia </p>
-					<p> Ppilografia </p>
+					<p> Papilografia </p>
 					<p> Ultrassonografia Ocular </p>
 					<p> Capsulotomia Yag Laser </p>
 					<p> Iridectomia yag laser </p>
@@ -238,8 +238,8 @@
 							<p> - Miopia</p>
 							<p> - Astigmatismo</p>
 							<p> - Hipermetropia</p>
-							<p> - Presbiopio</p>
-							<p> - Cirurgia de Glaucoma</p>
+							<p> - Presbiopia </p>
+						<p>Cirurgia de Glaucoma</p>
 					</div>
 				</div>		
 			</div>	
@@ -262,7 +262,7 @@
 	<div class="row">
 		<div class="col span-1-1 custom-text-convenios">
 			<div class="space-vertical align-center custom-fonte custom-letra-convenios">
-				<h1>Planos de Saúde e Convênios</h1>			
+				<h1>Plano de Saúde e Convênios</h1>			
 			</div>
 			<div class="slickconvenio padding-vertical-small">
 
