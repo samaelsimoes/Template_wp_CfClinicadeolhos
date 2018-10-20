@@ -147,7 +147,7 @@
 
 				<h2 class="align-left">Missão</h2>
 
-				<p >Nossa missão é fazer da oftalmologia, uma especialidade de acesso fácil a população através de preços justos e qualidade no atendimento.</p>
+				<p >Nossa missão é fazer da Oftalmologia, uma especialidade de acesso fácil a população através de preços justos e qualidade no atendimento.</p>
 				
 				<h2 class="align-left">Visão</h2>
 
@@ -192,9 +192,9 @@
 				<div class="col">
 					<p> Biometria Ultrassônica </p>
 					<p> Microscopia Especular de Córnea </p>
-					<p> Potencial de Acuidade macular </p>
+					<p> Potencial de Acuidade Macular </p>
 					<p> Mapeamento de Retina </p>
-					<p> Topografia de Córnea computadorizado </p>
+					<p> Topografia de Córnea Computadorizado </p>
 					<p> Adaptação de Lente de Contato </p>
 					<p> Adaptação de Prótese Ocular </p>
 					<p> Paquimetria</p>

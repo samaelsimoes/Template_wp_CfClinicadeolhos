@@ -15,7 +15,7 @@ bloginfo('name')?></title>
 
 		<!-- Stylesheets -->
 
-		<link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_uri(); ?>?ver=3.9"/>
+		<link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_uri(); ?>?ver=3.1.0"/>
 		<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/scripts/jquery.js"></script>
 
 		<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/scripts/efeitoscroll.js"></script>

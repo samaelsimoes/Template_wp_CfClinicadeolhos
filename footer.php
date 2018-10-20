@@ -62,6 +62,11 @@ include 'googleMaps/mapaphp.php';
             	<p class="copyright text-muted">Copyright &copy; Todos direitos reservados 2017</p>
             </a>
         </div>
+		<div class="col">
+			<div class="row">
+				<a href="https://samaelsimoes.github.io" class="copyright text-muted" style="white-space: nowrap;text-decoration: none;color: #575757;"> Desenvolvido por: Kether technology</a>
+			</div>
+		</div>
     </div>
 </section>
 
